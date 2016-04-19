@@ -1,0 +1,16 @@
+body {
+  @include outer-container(740px);
+
+  margin-bottom: $base-spacing * 3;
+  margin-top: $base-spacing * 2;
+}
+
+.logo {
+  margin-bottom: $base-spacing * 2;
+  text-align: right;
+}
+
+h1 {
+  font-size: $base-font-size * 1.25;
+  margin-bottom: $base-spacing;
+}
